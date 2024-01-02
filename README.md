@@ -10,6 +10,10 @@
 
 `$ uvicorn main:app`
 
+## Запуск тестов
+
+`$ pytest test_main.py`
+
 ## Документация API
 
 http://127.0.0.1:8000/docs
