@@ -12,7 +12,7 @@ def test_redirect_to_documentation():
 
 
 def test_shorten_text_positive():
-    response = client.post("/shorten_text/",
+    response = client.post("/shorten_text",
                            json={
                                "original_text": "some string"
                            })
@@ -22,7 +22,7 @@ def test_shorten_text_positive():
 
 
 def test_shorten_text_negative():
-    response = client.post("/shorten_text/",
+    response = client.post("/shorten_text",
                            json={
                                "original_text": "some string"
                            })
